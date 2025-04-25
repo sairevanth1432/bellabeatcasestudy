@@ -63,7 +63,7 @@
     * Identified missing values, duplicates, or inconsistent formats (e.g., date strings).  
     * Example: Found 3 rows duplicates in sleepDay\_merged.csv, 
 
-    ![][image1]
+    ![duplicates](https://raw.githubusercontent.com/sairevanth1432/bellabeatcasestudy/main/Screenshot 2025-04-23 101632.png
 
     * removed using distinct().
 
