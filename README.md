@@ -63,20 +63,27 @@
     * Identified missing values, duplicates, or inconsistent formats (e.g., date strings).  
     * Example: Found 3 rows duplicates in sleepDay\_merged.csv, 
 
-    ![duplicates](https://raw.githubusercontent.com/sairevanth1432/bellabeatcasestudy/main/Screenshot 2025-04-23 101632.png
+    ![Screenshot 2025-04-23 101632](https://github.com/user-attachments/assets/182dd85b-991e-4f9f-99d8-56c198f7c232)
+
+
 
     * removed using distinct().
+   
 
-    ![][image2]
+    ![Screenshot 2025-04-23 115032](https://github.com/user-attachments/assets/46cfe10e-23bd-413b-b50e-68893b06b358)
+
+    
 
   * **Transformed Data**:  
     * Converted date columns to consistent formats using lubridate::mdy() or mdy\_hms().
 
-    ![][image3]
+    ![Screenshot 2025-04-23 120038](https://github.com/user-attachments/assets/e1924381-7985-404d-a907-f438076b07b2)
+
 
     * Merged datasets (e.g., daily activity and sleep) by Id and Date using inner\_join().
 
-    ![][image4]
+    ![Screenshot 2025-04-23 120641](https://github.com/user-attachments/assets/44cb01f3-2a58-4bf1-8ded-cbf4533870de)
+
 
     * Aggregated data (e.g., daily averages for steps, sleep).  
   * **Verified Cleanliness**:  
@@ -154,19 +161,22 @@
   * **Bar Chart**: Average steps by day of the week.  
     * Finding: \[Saturday peak at 9871 steps, Sunday low at 7297 steps\].
 
-    ![][image5]
+    ![Screenshot 2025-04-23 122729](https://github.com/user-attachments/assets/cd7de521-5dce-472d-9f0e-25214d2c6db9)
+
 
 
   * **Scatter Plot**: Steps vs. sleep duration.  
     * Finding: \[ Weak positive correlation (r \= \-0.19), suggesting active users sleep more\].  
         
-      ![][image6]  
+      ![Screenshot 2025-04-23 124029](https://github.com/user-attachments/assets/bd112229-94f9-40ad-afe4-78ec75152d0f)
+ 
         
         
   * **Line Chart**: Hourly activity intensity trends.  
     * Finding: \[Peak activity at 5-7 PM, ideal for scheduling app notifications\].
 
-    ![][image7]
+    ![Screenshot 2025-04-23 162913](https://github.com/user-attachments/assets/641e6d25-cc2f-4e16-894c-b8fbae5e1f0a)
+
 
   ## **6\. Act Phase**
 
