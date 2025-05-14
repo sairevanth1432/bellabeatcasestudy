@@ -155,7 +155,7 @@
 
   ### **Supporting Visualizations and Key Findings**
 
-* **Visualization Tools**: R (ggplot2) and \[ PowerPoint for presentation slides\].
+* **Visualization Tools**: R (ggplot2)
 
 * **Visualizations**:  
   * **Bar Chart**: Average steps by day of the week.  
