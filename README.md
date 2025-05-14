@@ -1,6 +1,6 @@
 # **Bellabeat Case Study: Smart Device Usage Analysis Using FitBit Data**
 
-                                                     **By Revanth Chinthada** 
+                                                     By Revanth Chinthada
 
 ## **1\. Ask Phase**
 
